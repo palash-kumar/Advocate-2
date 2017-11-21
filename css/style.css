@@ -1,0 +1,563 @@
+/*Global Styles Start*/
+body{
+    color: #000;
+}
+p, h1, h2, h3, h4{
+    text-align: center;
+}
+p{
+    font-weight: 600;
+    font-size: 20px;
+}
+.required:after { content:" *"; }
+
+/*Global Styles End*/
+
+/*Section Styling Start*/
+#header{
+    background-image: url("../images/header.jpg");
+    width: 100%;
+    max-height: 320px;
+    min-height: 100px;
+}
+
+#content{
+
+}
+#director p{
+    text-align: right;
+}
+#chart{
+
+}
+#contactUs{
+    background-color: #4a5c6b;
+    padding: 120px 0;
+    color: #ffffff;
+}
+#contactUs h1, #contactUs p{
+    color: #ffffff;
+}
+
+#inner{
+    margin: 20% 0 0 30%;
+}
+
+.arrow-img{
+    /*width: 100%;*/
+    max-height: 20%;
+    position: absolute;
+    z-index: 100;
+    margin: -73px 0;
+}
+/*Section Styling End*/
+
+/*Content Section Start*/
+.content-top{
+    background: url("../images/content_1_1.jpg") no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+}
+#content .container-fluid {
+    /*width: 100%;*/
+    padding-right: 0;
+    padding-left: 0;
+    margin-right: auto;
+    margin-left: auto;
+}
+.shade{
+    /*color: #fff;*/
+    padding: 100px 50px;
+    left: 0;
+    width: 100%;
+    background: rgba(255, 255, 255, .4);
+}
+.content-below{
+    background: url("../images/content_2.jpg") no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    padding: 300px 0;
+    /*height: 600px;*/
+}
+/*Content Section End*/
+
+/*Director Section Start*/
+.director-content{
+    background: url("../images/Director_3_1_Slide.jpg") no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    padding: 300px 0;
+}
+/*Director Section End*/
+
+/*Chart Section Start*/
+.chart-padding{
+    padding: 120px 0;
+    /*margin-top: 40px;*/
+    z-index: 100;
+}
+.chart-top{
+    background: url("../images/Director_chart_2_Slide.jpg") no-repeat;
+    -webkit-background-size:100% 100%;
+    background-size:100% 100%;
+    padding: 300px 0;
+    text-align: left;
+}
+.chart-top p, .chart-top h2{
+    text-align: left;
+}
+
+.chart-bottom{
+    background: url("../images/content_2.jpg") no-repeat;
+    background-size: cover;
+}
+.card{
+    max-width: 300px;
+    margin: auto;
+    background-color: transparent;
+    border: none;
+    margin: 30px 0;
+}
+.card > img{
+    max-height: 200px;
+    max-width: 200px;
+    margin: auto;
+}
+.trainer{
+    width: 40%;
+    height: 40%;
+    margin: auto;
+}
+/*Chart Section End*/
+
+/*ContactUs Section Start*/
+#contactUs p, #contactUs h1{
+    text-align: left;
+}
+/*ContactUs Section End*/
+
+
+/* MODAL SETUP */
+.modal{
+    padding-right: 0 !important;
+}
+.modal-content {
+    /*background: url("../images/modal_1.jpg") no-repeat;*/
+    -webkit-background-size:cover;
+    background-size:cover;
+}
+.modal-dialog {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+.modal-content {
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+}
+
+/*
+    INTRO SECTION START
+*/
+#quiz h4 {
+    font-family: "mrseaves";
+    font-size: 60px;
+    color: white;
+    opacity: 0;
+}
+#response p,
+#quiz input,
+#quiz i,
+#section-quiz a:hover {
+    color: #ffffff;
+    text-decoration: none;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#quiz input,
+#quiz i {
+    color: #000000;
+    font-family: "hoefler-italic";
+    font-style: normal;
+}
+#quiz .clearfix {
+    margin: 40px 0;
+}
+#quiz h4,
+#quiz a,
+#quiz i,
+#quiz .quizquestion,
+#quiz .quizanswer {
+    display: inline;
+    padding-right: 20px;
+}
+#quiz p.quizquestion,
+#quiz p.quizanswer {
+    font-size: 33px;
+}
+#quiz input {
+    background: transparent;
+    border: 0;
+    outline: 0;
+    font-size: 50px;
+    width: 790px;
+    display: inline;
+    line-height: 50px;
+    position: relative;
+    top: -6px;
+}
+#response p {
+    color: #000000;
+    font-family: "mrseaves";
+    font-size: 22px;
+    padding-left: 120px;
+    margin: 0 0 10px;
+    line-height: 24px;
+}
+#response #enter h2 {
+    cursor: pointer;
+}
+.gecko #response #enter h2 a {
+    display: block;
+    font-weight: 600;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+#section-quiz{
+    background-color: #2e3133;
+}
+#response #enter h2:hover {
+    color: #446894;
+    cursor: pointer;
+}
+#section-quiz h1 {
+    color: white;
+}
+#section-quiz,
+#section-quiz h2 {
+    background-color: transparent;
+    background-position-y: top;
+    background-position-x: 50%;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+#section-quiz{
+    /*background: url("../images/modal_1.jpg") no-repeat;*/
+    background-size: cover;
+}
+#section-quiz.section {
+    position: fixed;
+    z-index: 9999;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding-top: 0;
+    height: 100%;
+}
+#section-quiz.section .branding {
+    margin-top: 60px;
+}
+#section-quiz hr {
+    margin-top: 50px;
+}
+#section-quiz .heading {
+    margin: 50px 0 ;
+}
+#section-quiz .masthead.skipper a {
+    display: block;
+    padding: 8px 0;
+}
+#section-quiz .masthead.skipper a:hover {
+    color: #404041;
+}
+
+.masthead.skipper a,
+ul li {
+    color: #000;
+    font-family: "knockout";
+    font-size: 18px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+.masthead.skipper a, ul li {
+    color: #fff;
+}
+.masthead {
+    background: #4a5c6b;
+    height: 33px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    text-align: center;
+    -webkit-box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.5);
+    box-shadow: 0px 2px 7px 0px rgba(0, 0, 0, 0.5);
+}
+.masthead.sticky {
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+.masthead.skipper {
+    position: fixed;
+    bottom: 0;
+    height: 40px;
+}
+#section-quiz, #section-quiz h2{
+    font-weight: 800;
+}
+.close {
+    padding-top: 50px;
+}
+/*
+    INTRO SECTION END
+*/
+
+.chkbox-padding{
+    margin-left: 20px;
+}
+.close{
+    float: none;
+    line-height: 4;
+    font-size: 25px;
+    opacity: .4;
+
+}
+.funkyradio .funkyradio-default input{
+    border-left: 1px solid black;
+    border-right: 1px solid black;
+}
+
+#quiz a{
+    color: #000;
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+.gecko #response #enter h2 a {
+    color: #000;
+}
+.gecko #response #enter h2 a:hover {
+    color: #fff;
+}
+#quiz h4 {
+    color: #000;
+    font-weight: 600;
+}
+
+/* MEDI@ Start */
+@media (min-width: 300px) {
+    .arrow-img{
+        width: 100%;
+        position: absolute;
+        z-index: 100;
+        margin: -35px 0;
+        padding: unset;
+    }
+    .shade{
+        padding: 0;
+    }
+    .chart-padding{
+        padding: 95px 0;
+    }
+    .chart-padding .row{
+        margin-right: 0;
+    }
+    #chart .arrow-img{
+        margin: -35px 0;
+        padding: unset;
+    }
+    .trainer{
+        width: 100%;
+        height: 100%;
+    }
+    .content-top{
+        height: auto;
+        padding: 50px 10px;
+    }
+    .content-below{
+        height: auto;
+        padding: 50px 10px;
+    }
+
+    .director-content{
+        height: auto;
+        padding: 50px 10px;
+    }
+    .chart-top{
+        padding: 100px 0;
+    }
+    .chart-bottom{
+        padding: 100px 0;
+    }
+
+    .gecko #response #enter h2 a {
+        font-size: 18px;
+    }
+    /*QUIZ*/
+    #section-quiz,
+    #quizes {
+        display: none;
+    }
+    #quiz{
+        padding: 0 10px;
+        margin: auto;
+    }
+    #quiz a{
+        font-size: 12px;
+        padding: 0 30px;
+    }
+    #section-quiz h1#partypooper {
+        font-size: 1px;
+        text-indent: -6000px;
+        display: block;
+        height: auto;
+        margin-top: 20px;
+    }
+    #section-quiz h1#partypooper img {
+        margin-left: auto;
+        margin-right: auto;
+        clear: both;
+        display: block;
+    }
+    #quiz p.quizquestion, #quiz p.quizanswer {
+        font-size: 15px;
+    }
+    #quiz h4 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+    #quiz .clearfix {
+        margin: 20px 0;
+    }
+    #response {
+        margin-top: 50px;
+    }
+    #response p {
+        padding-left: 5px;
+        font-size: 18px;
+    }
+    .masthead.skipper a, ul li {
+        font-size: 16px;
+    }
+    .container{
+        padding: 0;
+    }
+}
+
+
+@media (min-width: 800px) {
+    .arrow-img{
+        margin: -50px 0;
+    }
+    .trainer{
+        width: 25%;
+        /*height: 80%;*/
+    }
+    .content-top{
+        padding: 100px 0;
+        height: auto;
+    }
+    .content-below{
+        padding: 100px 0;
+        height: auto;
+    }
+    .director-content{
+        padding: 170px 0;
+        height: auto;
+    }
+    .modal-content h2{
+        font-size: 25px;
+    }
+    .modal-content .col-md-6{
+        padding-left: 15px;
+    }
+    .funkyradio label{
+        font-size: 20px;
+        font-weight: 700;
+    }
+    .arrow-img{
+         margin: -63px 0;
+     }
+    #chart .arrow-img{
+        margin: -63px 0;
+    }
+    #response {
+        margin-top: 20%;
+    }
+    #quiz {
+        padding: 0 10px;
+        margin: 10% 0 0 30%;
+    }
+
+}
+
+
+@media (min-width: 900px){
+    .content-top{
+        /*height: 800px;*/
+    }
+    .content-padding{
+        padding-top: 150px;
+    }
+    #quiz p.quizquestion, #quiz p.quizanswer {
+        font-size: 25px;
+    }
+    .arrow-img{
+        margin: -63px 0;
+    }
+    #chart .arrow-img{
+        margin: -60px 0;
+    }
+    #quiz h4 {
+        font-size: 25px;
+        font-weight: 600;
+    }
+    #quiz a {
+         font-size: 25px;
+         padding: 0 30px;
+     }
+    #response p {
+        font-size: 25px;
+    }
+    .gecko #response #enter h2 a {
+        font-size: 30px;
+    }
+    .content-top{
+        height: 800px;
+    }
+    .director-content{
+        height: 600px;
+    }
+
+}
+@media (min-width: 900px) and (min-height: 900px) {
+    .arrow-img{
+        margin: -94px -15px;
+    }
+    #chart .arrow-img{
+        margin: -94px -15px;
+    }
+    .content-top{
+        height: 800px;
+    }
+    .director-content{
+        height: 600px;
+    }
+}
+
+
