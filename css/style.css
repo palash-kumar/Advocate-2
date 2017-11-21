@@ -547,11 +547,12 @@ ul li {
 }
 @media (min-width: 900px) and (min-height: 900px) {
     .arrow-img{
-        margin: -94px -15px;
+        margin: -94px 0;
+        width: inherit;
     }
-    #chart .arrow-img{
-        margin: -94px -15px;
-    }
+    /*#chart .arrow-img{*/
+        /*margin: -94px -15px;*/
+    /*}*/
     .content-top{
         height: 800px;
     }
