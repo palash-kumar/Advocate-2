@@ -11,20 +11,20 @@
 
 </head>
 <body>
-<div class="container">
-    <section name="header" id="header"><!-- header start -->
+
+<div class="container" name="header" id="header">
+    <section ><!-- header start -->
         <div class="container-fluid">
             <p>&nbsp;</p>
         </div>
     </section><!-- header end -->
-    <img class="arrow-img container" src="images/arrow.png"/>
+    <img class="container arrow-img" src="images/arrow.png"/>
 </div>
 
-<!--<div class="container-fluid ">-->
 
 <!--</div>-->
-<div class="container">
-    <section name="content" id="content"><!-- content start -->
+<div class="container"  name="content" id="content">
+    <section><!-- content start -->
         <div class="content-top content-padding">
             <div class="row  container-fluid">
                 <!--<div class="container-fluid">-->
@@ -47,31 +47,43 @@
                 <!--</div>-->
             </div>
         </div>
-        <img class="container arrow-img" src="images/arrow.png"/>
+    </section>
+    <img class="container arrow-img" src="images/arrow.png"/>
+</div>
+
+<div class="container">
+    <section>
         <div class="content-below content-padding">
-            <div class="row container-fluid">
-                <div class="container">
-                    <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
-                        <h2>If you are doing research and development you might be able
-                            <br>to get 43.5% of the money you have spent back.</h2>&nbsp;
-                        <p>We might even know of some other grants you could<br>
-                            apply for, or if we would help further by leveraging off<br>
-                            our capabilities in other areas.</p>&nbsp;
-                        <p> We’ve set out the requirements for the R&D grant in<br>
-                            another article, or you can just call us if it’s easier and<br>
-                            we’ll talk it through with you.</p>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="container">
+                        <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 ">
+                            <h2>If you are doing research and development you might be able
+                                <br>to get 43.5% of the money you have spent back.</h2>&nbsp;
+                            <p>We might even know of some other grants you could<br>
+                                apply for, or if we would help further by leveraging off<br>
+                                our capabilities in other areas.</p>&nbsp;
+                            <p> We’ve set out the requirements for the R&D grant in<br>
+                                another article, or you can just call us if it’s easier and<br>
+                                we’ll talk it through with you.</p>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </section><!-- content end -->
+    </section>
     <img class="container arrow-img" src="images/arrow.png"/>
 </div>
 
 
+    <!--</section>&lt;!&ndash; content end &ndash;&gt;-->
 
-<div class="container">
-    <section name="director" id="director" ><!-- director start -->
+<!--</div>-->
+
+
+
+<div class="container"  name="director" id="director">
+    <section ><!-- director start -->
         <div class="container-fluid">
             <div class="row director-content">
                 <!--<div class="shade">-->
@@ -90,8 +102,8 @@
 
 
 
-<div class="container">
-    <section name="chart" id="chart">
+<div class="container"  name="chart" id="chart">
+    <section>
         <!--<div class="container-fluid">-->
         <div class="chart-top">
             <div class="container-fluid">
@@ -118,7 +130,13 @@
                 </div>
             </div>
         </div>
-        <img class="container arrow-img" src="images/arrow.png"/>
+    </section>
+    <img class="container arrow-img " src="images/arrow.png"/>
+</div>
+
+        <!--<img class="container arrow-img2" src="images/arrow.png"/>-->
+<div class="container">
+    <section>
         <div class="chart-bottom content-padding">
             &nbsp;&nbsp;<p>But you don’t need a name dropper, you need results:</p>
             <div class="container chart-padding">
@@ -161,44 +179,46 @@
     <img class="arrow-img container" src="images/arrow.png"/>
 </div>
 
-
-
-<div class="container">
-    <section name="contactUs" id="contactUs"><!-- contactUs start -->
-        <div class="container">
-            <div class="row">
+<div class="container" id="contact-us">
+    <div class="container-fluid">
+        <div class="row">
+            <!--<div class="container">-->
                 <div class="col-lg-6 col-md-6 col-sm-12">
-                    <h1>Contact us</h1>
-                    <p>Call us or drop us a note and we'll call you back</p>
-                    <p><i class="fa fa-mobile fa-2x"></i> (02) 7200 8200</p>
-                    <p><i class="fa fa-envelope" aria-hidden="true"></i> adam@adamahmed.com.au</p>
+                    <div class="container">
+                        <h1>Contact us</h1>
+                        <p>Call us or drop us a note and we'll call you back</p>
+                        <p><i class="fa fa-mobile fa-2x"></i> (02) 7200 8200</p>
+                        <p><i class="fa fa-envelope" aria-hidden="true"></i> adam@adamahmed.com.au</p>
+                    </div>
                 </div>
+                <div class="col-lg-6 col-md-6 col-sm-12">
+                    <div class="container-fluid">
+                        <form>
+                            <div class="form-group">
+                                <!--<label for="name">Name</label>-->
+                                <input type="text" class="form-control" id="name" placeholder="Yor Name*">
+                            </div>
+                            <div class="form-group">
+                                <!--<label for="inputEmail1">Email address</label>-->
+                                <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Your E-mail*">
+                                <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                            </div>
+                            <div class="form-group">
+                                <!--<label for="message">Example textarea</label>-->
+                                <textarea class="form-control" id="message" rows="3" placeholder="Your message*"></textarea>
+                            </div>
 
-                <div class="col-lg-5 col-md-5 col-sm-12">
-                    <form>
-                        <div class="form-group">
-                            <!--<label for="name">Name</label>-->
-                            <input type="text" class="form-control" id="name" placeholder="Yor Name*">
-                        </div>
-                        <div class="form-group">
-                            <!--<label for="inputEmail1">Email address</label>-->
-                            <input type="email" class="form-control" id="inputEmail1" aria-describedby="emailHelp" placeholder="Your E-mail*">
-                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-                        </div>
-                        <div class="form-group">
-                            <!--<label for="message">Example textarea</label>-->
-                            <textarea class="form-control" id="message" rows="3" placeholder="Your message*"></textarea>
-                        </div>
+                            <!--<span class="icon-input-btn"><span class=""></span> <input type="submit" class="btn btn-primary" value="Search"></span>-->
+                            <button type="submit" class="btn btn-primary">
+                                <i class="fa fa-paper-plane-o"></i> Submit
+                            </button>
+                        </form>
+                    </div>
 
-                        <!--<span class="icon-input-btn"><span class=""></span> <input type="submit" class="btn btn-primary" value="Search"></span>-->
-                        <button type="submit" class="btn btn-primary">
-                            <i class="fa fa-paper-plane-o"></i> Submit
-                        </button>
-                    </form>
                 </div>
-            </div>
+            <!--</div>-->
         </div>
-    </section><!-- contactUs end -->
+    </div>
 </div>
 
 
@@ -269,7 +289,7 @@
     </div>
 
     <div class="masthead skipper">
-        <a class="" href="#">OK Let's dive straight into it</a></li>
+        <a class="" href="#">OK Let's dive straight into it</a>
     </div>
 </div>
 <!-- Quiz Section End -->

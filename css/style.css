@@ -1,6 +1,7 @@
 /*Global Styles Start*/
 body{
     color: #000;
+    background-color: #FAFCFE;
 }
 p, h1, h2, h3, h4{
     text-align: center;
@@ -16,7 +17,7 @@ p{
 /*Section Styling Start*/
 #header{
     background-image: url("../images/header.jpg");
-    width: 100%;
+    /*width: 100%;*/
     max-height: 320px;
     min-height: 100px;
 }
@@ -30,12 +31,13 @@ p{
 #chart{
 
 }
-#contactUs{
+#contact-us{
     background-color: #4a5c6b;
     padding: 120px 0;
     color: #ffffff;
+    overflow: hidden;
 }
-#contactUs h1, #contactUs p{
+#contact-us h1, #contact-us p{
     color: #ffffff;
 }
 
@@ -131,7 +133,7 @@ p{
 /*Chart Section End*/
 
 /*ContactUs Section Start*/
-#contactUs p, #contactUs h1{
+#contact-us p, #contact-us h1{
     text-align: left;
 }
 /*ContactUs Section End*/
@@ -368,6 +370,13 @@ ul li {
         margin: -35px 0;
         padding: unset;
     }
+    .arrow-img2{
+        margin: -49px 0;
+        height: 20%;
+        z-index: 100;
+        position: absolute;
+        width: 100%;
+    }
     .shade{
         padding: 0;
     }
@@ -380,6 +389,9 @@ ul li {
     #chart .arrow-img{
         margin: -35px 0;
         padding: unset;
+    }
+    #header .arrow-img {
+        margin: 28px 0;
     }
     .trainer{
         width: 100%;
@@ -404,6 +416,9 @@ ul li {
     .chart-bottom{
         padding: 100px 0;
     }
+    #contact-us p{
+        font-size: 16px;
+    }
 
     .gecko #response #enter h2 a {
         font-size: 18px;
@@ -421,19 +436,7 @@ ul li {
         font-size: 12px;
         padding: 0 30px;
     }
-    #section-quiz h1#partypooper {
-        font-size: 1px;
-        text-indent: -6000px;
-        display: block;
-        height: auto;
-        margin-top: 20px;
-    }
-    #section-quiz h1#partypooper img {
-        margin-left: auto;
-        margin-right: auto;
-        clear: both;
-        display: block;
-    }
+
     #quiz p.quizquestion, #quiz p.quizanswer {
         font-size: 15px;
     }
@@ -457,6 +460,7 @@ ul li {
     .container{
         padding: 0;
     }
+
 }
 
 
@@ -519,9 +523,19 @@ ul li {
     }
     .arrow-img{
         margin: -63px 0;
+        width: inherit;
+    }
+    .arrow-img2{
+        margin: -97px 0;
+        height: 20%;
+        z-index: 100;
+        position: absolute;
     }
     #chart .arrow-img{
-        margin: -60px 0;
+        margin: -66px 0;
+    }
+    #header .arrow-img {
+        margin: 0;
     }
     #quiz h4 {
         font-size: 25px;
@@ -543,12 +557,22 @@ ul li {
     .director-content{
         height: 600px;
     }
+    #contact-us p{
+        font-size: 20px;
+    }
+
 
 }
 @media (min-width: 900px) and (min-height: 900px) {
     .arrow-img{
         margin: -94px 0;
         width: inherit;
+    }
+    #chart .arrow-img{
+        margin: -94px 0;
+    }
+    #header .arrow-img {
+        margin: -35px 0;
     }
     /*#chart .arrow-img{*/
         /*margin: -94px -15px;*/
