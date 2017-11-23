@@ -168,7 +168,7 @@ p{
     INTRO SECTION START
 */
 #quiz h4 {
-    font-family: "mrseaves";
+    /*font-family: "mrseaves";*/
     font-size: 60px;
     color: white;
     opacity: 0;
@@ -188,7 +188,7 @@ p{
 #quiz input,
 #quiz i {
     color: #000000;
-    font-family: "hoefler-italic";
+    /*font-family: "hoefler-italic";*/
     font-style: normal;
 }
 #quiz .clearfix {
@@ -219,7 +219,7 @@ p{
 }
 #response p {
     color: #000000;
-    font-family: "mrseaves";
+    /*font-family: "mrseaves";*/
     font-size: 22px;
     padding-left: 120px;
     margin: 0 0 10px;
