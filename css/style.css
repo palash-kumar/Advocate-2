@@ -59,7 +59,7 @@ p{
 #section-quiz h4,
 #section-quiz a,
 #section-quiz i{
-    color: #005773;
+    color: #9c9999;
 }
 /*Section Styling End*/
 
@@ -193,7 +193,7 @@ p{
 }
 #quiz input,
 #quiz i {
-    color: #005773;
+    color: #9c9999;
     /*font-family: "hoefler-italic";*/
     font-style: normal;
 }
@@ -224,7 +224,7 @@ p{
     top: -6px;
 }
 #response p {
-    color: #005773;
+    color: #9c9999;
     /*font-family: "mrseaves";*/
     font-size: 22px;
     padding-left: 120px;
@@ -305,8 +305,8 @@ ul li {
     color: #fff;
 }
 .masthead {
-    /*background: #4a5c6b;*/
-    background: #9c9999;
+    background: #4a5c6b;
+    /*background: #9c9999;*/
     height: 33px;
     position: absolute;
     bottom: 0;
@@ -353,7 +353,7 @@ ul li {
 }
 
 #quiz a{
-    color: #005773;
+    color: #9c9999;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
@@ -361,13 +361,13 @@ ul li {
     transition: all .3s ease-in;
 }
 .gecko #response #enter h2 a {
-    color: #005773;
+    color: #9c9999;
 }
 .gecko #response #enter h2 a:hover {
     color: #fff;
 }
 #quiz h4 {
-    color: #005773;
+    color: #9c9999;
     font-weight: 600;
 }
 
