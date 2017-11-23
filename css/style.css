@@ -55,6 +55,12 @@ p{
     z-index: 100;
     margin: -73px 0;
 }
+#section-quiz p, 
+#section-quiz h4,
+#section-quiz a,
+#section-quiz i{
+    color: #9c9999;
+}
 /*Section Styling End*/
 
 /*Content Section Start*/
