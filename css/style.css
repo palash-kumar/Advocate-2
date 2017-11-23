@@ -59,7 +59,7 @@ p{
 #section-quiz h4,
 #section-quiz a,
 #section-quiz i{
-    color: #9c9999;
+    color: #005773;
 }
 /*Section Styling End*/
 
@@ -193,7 +193,7 @@ p{
 }
 #quiz input,
 #quiz i {
-    color: #000000;
+    color: #005773;
     /*font-family: "hoefler-italic";*/
     font-style: normal;
 }
@@ -224,7 +224,7 @@ p{
     top: -6px;
 }
 #response p {
-    color: #9c9999;
+    color: #005773;
     /*font-family: "mrseaves";*/
     font-size: 22px;
     padding-left: 120px;
@@ -352,7 +352,7 @@ ul li {
 }
 
 #quiz a{
-    color: #9c9999;
+    color: #005773;
     -webkit-transition: all .3s ease-in;
     -moz-transition: all .3s ease-in;
     -ms-transition: all .3s ease-in;
