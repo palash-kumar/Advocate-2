@@ -1,7 +1,10 @@
 /*Global Styles Start*/
+@import url('https://fonts.googleapis.com/css?family=Scada');
+
 body{
     color: #000;
     background-color: #FAFCFE;
+    font-family: 'Scada', sans-serif;
 }
 p, h1, h2, h3, h4{
     text-align: center;
