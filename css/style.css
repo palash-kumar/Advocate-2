@@ -305,7 +305,8 @@ ul li {
     color: #fff;
 }
 .masthead {
-    background: #4a5c6b;
+    /*background: #4a5c6b;*/
+    background: #9c9999;
     height: 33px;
     position: absolute;
     bottom: 0;
