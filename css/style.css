@@ -571,6 +571,12 @@ ul li {
 
 
 }
+@media (min-width: 700px) and (min-height: 1280px) {
+    .mobile-pad{
+        width: 100%;
+    }
+}
+
 @media (min-width: 900px) and (min-height: 900px) {
     .arrow-img{
         margin: -94px 0;
