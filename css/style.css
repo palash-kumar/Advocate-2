@@ -575,6 +575,9 @@ ul li {
     .container{
         width: 100%;
     }
+	.arrow-img {
+    margin: -98px 0;
+	}
 }
 
 @media (min-width: 900px) and (min-height: 900px) {
