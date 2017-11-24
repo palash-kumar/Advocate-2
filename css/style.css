@@ -572,7 +572,7 @@ ul li {
 
 }
 @media (min-width: 700px) and (min-height: 1280px) {
-    #header{
+    .container{
         width: 100%;
     }
 }
