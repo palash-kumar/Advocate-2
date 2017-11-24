@@ -222,7 +222,8 @@ p{
     top: -6px;
 }
 #response p {
-    color: #000000;
+    color: #006;
+    text-shadow: 0 1px 5px #fff;
     /*font-family: "mrseaves";*/
     font-size: 22px;
     padding-left: 120px;
