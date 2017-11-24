@@ -571,7 +571,7 @@ ul li {
 
 
 }
-@media (min-width: 700px) and (min-height: 1000px) {
+@media (min-width: 700px) {
     .container{
         width: 100%;
     }
