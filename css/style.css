@@ -480,14 +480,15 @@ ul li {
     .container{
         width: 100%;
     }
+	.arrow-img{
+        margin: -40px 0;
+    }
 }
 @media (max-width: 350px) {
     .container{
         width: 100%;
     }
-	.arrow-img{
-        margin: -40px 0;
-    }
+	
 }
 @media (min-width: 800px) {
     .arrow-img{
