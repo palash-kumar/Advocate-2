@@ -479,9 +479,6 @@ ul li {
     .container{
         width: 100%;
     }
-    .arrow-img {
-        margin: 2px 0;
-    }
 }
 @media (min-width: 800px) {
     .arrow-img{
