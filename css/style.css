@@ -470,8 +470,19 @@ ul li {
     }
 
 }
-
-
+/*@media (min-width: 700px) and (min-height: 1280px) {*/
+    /*.mobile-pad{*/
+        /*width: 100%;*/
+    /*}*/
+/*}*/
+@media (max-width: 700px) {
+    .container{
+        width: 100%;
+    }
+    .arrow-img {
+        margin: 2px 0;
+    }
+}
 @media (min-width: 800px) {
     .arrow-img{
         margin: -50px 0;
@@ -571,15 +582,6 @@ ul li {
 
 
 }
-@media (min-width: 700px) {
-    .container{
-        width: 100%;
-    }
-	.arrow-img {
-    margin: 2px 0;
-	}
-}
-
 @media (min-width: 900px) and (min-height: 900px) {
     .arrow-img{
         margin: -94px 0;
