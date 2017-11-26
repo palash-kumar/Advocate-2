@@ -289,7 +289,7 @@ p{
     padding: 8px 0;
 }
 #section-quiz .masthead.skipper a:hover {
-    color: #006;
+    color: #fff;
 }
 
 .masthead.skipper a,
@@ -301,7 +301,8 @@ ul li {
     letter-spacing: 1px;
 }
 .masthead.skipper a, ul li {
-    color: #fff;
+    color: #006;
+	text-shadow: 0 1px 5px #fff;
 }
 .masthead {
     background: #4a5c6b;
@@ -359,7 +360,7 @@ ul li {
     transition: all .3s ease-in;
 }
 .gecko #response #enter h2 a {
-    color: #000;
+    color: #006;
 }
 .gecko #response #enter h2 a:hover {
     color: #fff;
