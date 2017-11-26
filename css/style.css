@@ -375,7 +375,7 @@ ul li {
         width: 100%;
         position: absolute;
         z-index: 100;
-        margin: -42px 0;
+        margin: -35px 0;
         padding: unset;
     }
     .arrow-img2{
@@ -484,6 +484,9 @@ ul li {
 @media (max-width: 350px) {
     .container{
         width: 100%;
+    }
+	.arrow-img{
+        margin: -40px 0;
     }
 }
 @media (min-width: 800px) {
