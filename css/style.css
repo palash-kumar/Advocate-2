@@ -489,6 +489,12 @@ ul li {
     .container{
         width: 100%;
     }
+	#section-quiz .masthead.skipper a {
+        padding: 5px 0;
+    }
+    .masthead.skipper a, ul li {
+        font-size: 20px;
+    }
 	
 }
 @media (min-width: 800px) {
@@ -570,13 +576,20 @@ ul li {
     }
     #quiz a {
          font-size: 25px;
-         padding: 0 30px;
+         padding: 0 45px;
+		 line-height: 3;
      }
     #response p {
         font-size: 25px;
     }
     .gecko #response #enter h2 a {
         font-size: 30px;
+    }
+	#section-quiz .masthead.skipper a {
+        padding: 5px 0;
+    }
+    .masthead.skipper a, ul li {
+        font-size: 22px;
     }
     .content-top{
         height: 800px;
