@@ -477,12 +477,12 @@ ul li {
         /*width: 100%;*/
     /*}*/
 /*}*/
-@media (max-width: 700px) {
+@media (max-width: 1028px) {
     .container{
         width: 100%;
     }
 	.arrow-img{
-        margin: -40px 0;
+        /*margin: -40px 0;*/
     }
 }
 @media (max-width: 350px) {
